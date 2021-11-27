@@ -1,0 +1,91 @@
+body {
+  font-family: "Mukta", sans-serif;
+  color: #333652;
+}
+
+.card {
+  max-width: 100%;
+  margin-top: 20px;
+  border-color: #333652;
+  border-width: 2px;
+  border-radius: 20px;
+}
+
+.card-body {
+  border-radius: 20px;
+  background-color: #e9eaec;
+}
+
+.container {
+  max-width: 630px;
+  border-radius: 20px;
+}
+
+.row .col {
+  background-color: #e9eaec;
+}
+
+.london {
+  position: relative;
+  left: 3px;
+}
+
+.nyc {
+  position: relative;
+  left: 13px;
+}
+
+.madrid {
+  position: relative;
+  left: 23px;
+}
+
+.paris {
+  position: relative;
+  left: 33px;
+}
+
+.city {
+  font-weight: 300px;
+  position: relative;
+  top: 8px;
+  background: linear-gradient(to bottom, #fad02c 0%, #fad02c 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  transition: background-size 0.2s;
+  text-transform: capitalize;
+}
+
+.city:hover {
+  background-size: 4px 50px;
+}
+
+.temp {
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+}
+
+.day {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.details {
+  font-weight: 300;
+  font-size: 14px;
+  padding: 1px 70px;
+}
+
+.location {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.date {
+  font-weight: 600;
+  font-size: 20px;
+}
